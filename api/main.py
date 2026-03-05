@@ -1,13 +1,15 @@
 import os
 import django
-import time
 
+# Initialize Django FIRST
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "hospital.settings")
+django.setup()
+
+import time
 from fastapi import FastAPI, Request
 from api.routers import patients, auth, appointments, doctors
 from api.core.logger import logger
 
-os.environ.setdefault("DJANGO_SETTINGS_MODULE", "hospital.settings")
-django.setup()
 
 app = FastAPI(
     title="Hospital Management API",
