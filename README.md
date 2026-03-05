@@ -240,19 +240,4 @@ GET /patients Status:200 Time:0.02s
 POST /auth/login Status:200 Time:0.01s
 ```
 
----
-
-# 📌 Future Improvements
-
-* Docker support
-* CI/CD pipeline
-* Deployment to cloud
-* Advanced scheduling system
-
----
-
-# 👨‍💻 Author
-
-Developed as part of an **internship backend project** using **FastAPI + Django ORM**.
-
----
+⭐ If you like this project, please consider giving it a star on GitHub!
