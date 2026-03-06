@@ -46,7 +46,9 @@ hospital-management-system
 ├── logs               # API logs
 ├── manage.py
 ├── requirements.txt
+├── start.sh
 └── README.md
+
 ```
 
 ---
